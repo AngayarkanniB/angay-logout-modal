@@ -1,0 +1,13 @@
+<div class="modal-backdrop" *ngIf="isVisible">
+    <div class="modal-box">
+        <div class="icon-container">
+            <i class="bi bi-box-arrow-right"></i>
+        </div>
+        <h5 class="modal-title">{{ heading }}</h5>
+        <p class="modal-text">{{ message }}</p>
+        <div class="modal-actions">
+            <button class="btn btn-danger" (click)="confirm()">{{ confirmButtonText }}</button>
+            <button class="btn btn-outline-light" (click)="close()">{{ cancelButtonText }}</button>
+        </div>
+    </div>
+</div>

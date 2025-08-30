@@ -1,0 +1,79 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    background: #6a6a6abf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-box {
+    background: #ffffff;
+    border: 1px solid #404040;
+    border-radius: 16px;
+    padding: 2rem;
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 10px 30px #00000080;
+    animation: fadeInUp 0.4s ease-out;
+}
+
+.icon-container {
+    font-size: 2.5rem;
+    color: #ef5350;
+    margin-bottom: 1rem;
+}
+
+.modal-title {
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.modal-text {
+    color: #605c5c;
+    margin-bottom: 1.5rem;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-danger {
+    background-color: #ef5350;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 0.5rem 1.25rem;
+}
+
+.btn-outline-light {
+    border: 2px solid #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    background-color: #e9e9e9;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffffff20;
+}
+
+/* Animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

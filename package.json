@@ -1,0 +1,15 @@
+{
+  "name": "@angay/logout-modal",
+  "version": "0.0.1",
+  "description": "A lightweight Angular logout confirmation modal with service support.",
+  "author": "Angayarkanni Balasubramanian",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^17.0.0",
+    "@angular/core": "^17.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
